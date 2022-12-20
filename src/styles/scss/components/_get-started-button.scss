@@ -1,0 +1,15 @@
+.get-started-button {
+	border: $spacing-primary solid $brightRed;
+	background-color: $brightRed;
+	border-radius: $spacing-xxl;
+	color: $veryLightGray;
+	padding: $spacing-sm $spacing-lg;
+
+	&-white {
+		border-color: $veryLightGray;
+		background-color: $veryLightGray;
+		color: $brightRed;
+		font-weight: $beVietnamPro-bold;
+		padding: $spacing-md $spacing-xxl;
+	}
+}

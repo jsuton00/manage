@@ -1,0 +1,17 @@
+//Base
+@import './base/typography';
+@import './base/colours';
+@import './base/settings';
+@import './base/resets';
+@import './base/app';
+
+//Components
+@import './components/header';
+@import './components/get-started-button';
+@import './components/reviews';
+@import './components/orange-banner';
+@import './components/newsletter-form';
+@import './components/footer';
+
+//Pages
+@import './pages/home-page';

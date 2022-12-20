@@ -1,0 +1,21 @@
+.newsletter-sign-up-form {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: $spacing-base;
+	width: 100%;
+
+	&-input {
+		width: 100%;
+		padding: $spacing-sm $spacing-base;
+		border: $spacing-primary solid $veryLightGray;
+		border-radius: $spacing-xxl;
+	}
+	&-submit {
+		border: $spacing-primary solid $brightRed;
+		background-color: $brightRed;
+		border-radius: $spacing-xxl;
+		color: $veryLightGray;
+		padding: $spacing-sm $spacing-base;
+	}
+}

@@ -1,0 +1,40 @@
+.header {
+	width: 100%;
+	height: 4rem;
+	margin: 0 auto;
+
+	&-row {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		padding: $spacing-base;
+	}
+	&-navbar {
+		&-section {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			align-items: center;
+			gap: $spacing-base;
+		}
+		&-nav-item {
+			color: $darkGrayishBlue;
+			font-weight: $beVietnamPro-medium;
+			text-transform: capitalize;
+
+			&-text {
+				width: 100%;
+				text-align: center;
+			}
+		}
+		&-get-started-button-section {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+}

@@ -1,0 +1,116 @@
+.home-page {
+	width: 100%;
+}
+
+.hero {
+	&-section {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		width: 100%;
+		height: 88vh;
+		padding: $spacing-base 0;
+		background-image: url('../../assets/imgs/illustration-intro.svg');
+		background-repeat: no-repeat;
+		background-position: center right;
+		background-size: 50%;
+		margin-bottom: 3rem;
+	}
+	&-text-col {
+		display: flex;
+		flex-direction: column;
+		gap: $spacing-base;
+		width: 45%;
+	}
+	&-title {
+		font-weight: $beVietnamPro-bold;
+		color: $darkBlue;
+	}
+	&-text {
+		font-weight: $beVietnamPro-medium;
+		color: $darkGrayishBlue;
+	}
+}
+
+.what-different {
+	&-section {
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 3rem;
+	}
+	&-title-text-col {
+		display: flex;
+		flex-direction: column;
+		gap: $spacing-base;
+	}
+	&-title {
+		font-weight: $beVietnamPro-bold;
+		color: $darkBlue;
+	}
+	&-text {
+		font-weight: $beVietnamPro-medium;
+		color: $darkGrayishBlue;
+	}
+	&-list {
+		&-col {
+			display: flex;
+			flex-direction: column;
+			gap: $spacing-xxl;
+		}
+		&-item {
+			display: flex;
+			flex-direction: row;
+			gap: $spacing-xxl;
+
+			&-number-section {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+			&-number {
+				border: $spacing-primary solid $brightRed;
+				background-color: $brightRed;
+				border-radius: $spacing-xxl;
+				color: $veryLightGray;
+				padding: $spacing-sm $spacing-lg;
+			}
+			&-text {
+				&-section {
+					display: flex;
+					flex-direction: column;
+					gap: $spacing-base;
+				}
+				&-wrapper {
+					display: flex;
+					flex-direction: column;
+					gap: $spacing-sm;
+				}
+			}
+			&-title {
+				font-weight: $beVietnamPro-bold;
+				color: $darkBlue;
+			}
+			&-text {
+				font-weight: $beVietnamPro-medium;
+				color: $darkGrayishBlue;
+			}
+		}
+	}
+}
+
+.carousel {
+	&-section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: $spacing-base;
+		width: 100%;
+		padding: $spacing-base 0;
+		margin-bottom: 3rem;
+
+		&-title {
+			font-weight: $beVietnamPro-bold;
+			color: $darkBlue;
+		}
+	}
+}

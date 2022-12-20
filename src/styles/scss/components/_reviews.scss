@@ -1,0 +1,49 @@
+.review {
+	&-carousel {
+		width: 100%;
+
+		&-item {
+			width: 100%;
+		}
+	}
+	&-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+	}
+	&-card {
+		display: flex;
+		flex-direction: column;
+		width: 22.5rem;
+		border: none;
+
+		&-body {
+			border: $spacing-primary solid $veryPaleBlue;
+			background-color: $veryPaleBlue;
+			padding: $spacing-xxl + 0.5rem $spacing-base $spacing-base;
+		}
+	}
+	&-author-avatar {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		transform: translateY($spacing-xl);
+
+		img {
+			width: 5rem;
+		}
+	}
+	&-author {
+		font-weight: $beVietnamPro-bold;
+		color: $darkBlue;
+		text-align: center;
+	}
+	&-text {
+		color: $darkGrayishBlue;
+		text-align: center;
+	}
+}

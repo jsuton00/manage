@@ -1,0 +1,61 @@
+.footer {
+	width: 100%;
+	height: 20rem;
+	background-color: $veryDarkBlue;
+	padding: $spacing-base 0;
+
+	&-row {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		padding: $spacing-base;
+	}
+	&-brand-social {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		width: 24%;
+		height: 100%;
+	}
+	&-social {
+		display: flex;
+		flex-direction: row;
+		gap: $spacing-base;
+	}
+	&-navmenu {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: $spacing-base;
+		width: 52%;
+		height: 100%;
+
+		&-col {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 32%;
+			height: 100%;
+			gap: $spacing-base;
+		}
+		&-nav-item {
+			color: $darkGrayishBlue;
+			text-transform: capitalize;
+		}
+	}
+	&-form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 32%;
+		height: 100%;
+	}
+}
+
+.social-link-button {
+	cursor: pointer;
+}
