@@ -7,7 +7,7 @@ const OrangeBanner = () => {
 			<div className="orange-banner-row container">
 				<div className="orange-banner-text">
 					<h2 className="orange-banner-title">
-						Simplify how your team works today.
+						Simplify how your team works today
 					</h2>
 				</div>
 				<div className="orange-banner-get-started">

@@ -1,7 +1,6 @@
 .newsletter-sign-up-form {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
 	gap: $spacing-base;
 	width: 100%;
 
@@ -18,4 +17,8 @@
 		color: $veryLightGray;
 		padding: $spacing-sm $spacing-base;
 	}
+}
+
+.invalid-feedback {
+	display: inline-block;
 }

@@ -15,20 +15,37 @@
 		background-position: center right;
 		background-size: 50%;
 		margin-bottom: 3rem;
+
+		@media (max-width: 992px) {
+			flex-direction: column-reverse;
+			background-position: 50% 22.5%;
+		}
 	}
 	&-text-col {
 		display: flex;
 		flex-direction: column;
 		gap: $spacing-base;
 		width: 45%;
+
+		@media (max-width: 992px) {
+			align-items: center;
+		}
 	}
 	&-title {
 		font-weight: $beVietnamPro-bold;
 		color: $darkBlue;
+
+		@media (max-width: 992px) {
+			text-align: center;
+		}
 	}
 	&-text {
 		font-weight: $beVietnamPro-medium;
 		color: $darkGrayishBlue;
+
+		@media (max-width: 992px) {
+			text-align: center;
+		}
 	}
 }
 
@@ -37,19 +54,37 @@
 		display: flex;
 		flex-direction: row;
 		margin-bottom: 3rem;
+
+		@media (max-width: 992px) {
+			flex-direction: column;
+			align-items: center;
+			gap: $spacing-xxl;
+		}
 	}
 	&-title-text-col {
 		display: flex;
 		flex-direction: column;
 		gap: $spacing-base;
+
+		@media (max-width: 992px) {
+			align-items: center;
+		}
 	}
 	&-title {
 		font-weight: $beVietnamPro-bold;
 		color: $darkBlue;
+
+		@media (max-width: 992px) {
+			text-align: center;
+		}
 	}
 	&-text {
 		font-weight: $beVietnamPro-medium;
 		color: $darkGrayishBlue;
+
+		@media (max-width: 992px) {
+			text-align: center;
+		}
 	}
 	&-list {
 		&-col {

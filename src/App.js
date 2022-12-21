@@ -10,11 +10,20 @@ import GetStartedPage from './pages/GetStartedPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import OrangeBanner from './components/OrangeBanner';
+import { useViewportContext } from './hooks/useViewport';
+import { useToggle } from './hooks/useToggle';
 
 const App = () => {
+	const [width] = useViewportContext();
+	const [isOpen, handleToggle, handleClose] = useToggle();
 	return (
 		<>
-			<Header />
+			<Header
+				width={width}
+				isOpen={isOpen}
+				handleToggle={handleToggle}
+				handleClose={handleClose}
+			/>
 			<main className="main">
 				<Routes>
 					<Route path="/" element={<HomePage />} />
